@@ -15,4 +15,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: gcc -o hello.o hello.c
       run: gcc -o hello.o hello.c
+    - name: commands
+      rund: ./hello.o Gabriele
 
