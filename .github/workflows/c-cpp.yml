@@ -16,5 +16,5 @@ jobs:
     - name: gcc -o hello.o hello.c
       run: gcc -o hello.o hello.c
     - name: commands
-      rund: ./hello.o Gabriele
+      run: ./hello.o Gabriele
 
